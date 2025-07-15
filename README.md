@@ -22,21 +22,22 @@ The player is prompted with a series of math questions based on chosen difficult
 
 ## 🛠 How It Works
 
-```text
 1. The user selects:
-   - Number of questions
-   - Level of difficulty
-   - Type of operation
+
+   * Number of questions
+   * Level of difficulty
+   * Type of operation
 
 2. For each question:
-   - Two random numbers are generated based on the difficulty
-   - The operation is applied (or randomized if Mix is chosen)
-   - The user inputs an answer and receives instant feedback
+
+   * Two random numbers are generated based on the difficulty
+   * The operation is applied (or randomized if Mix is chosen)
+   * The user inputs an answer and receives instant feedback
 
 3. After the round:
-   - A summary is shown including correct and incorrect answers
-   - The user is asked if they want to play again
-```
+
+   * A summary is shown including correct and incorrect answers
+   * The user is asked if they want to play again
 
 ---
 
@@ -76,13 +77,12 @@ Math-Quiz/
 
 ## 📌 Notes
 
-```text
+
 - Division questions use integer division (e.g., 7 / 2 = 3)
-- If you select Mix, the game randomly changes the operation and difficulty level each round (according to your choice you choosed the change in level or operation or both) 
-```
-
-
-
+- If you select Mix, the game will randomly change the operation type and/or difficulty level in each question:
+   • Operation Mix → Each question has a different operation (+, -, *, /)
+   • Level Mix → Each question may have a different difficulty (Easy, Medium, Hard)
+   • You can mix both together if you choose both as "Mix"
 
 
 
