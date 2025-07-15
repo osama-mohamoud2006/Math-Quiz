@@ -53,3 +53,17 @@ Level: Medium
 Number of Questions: 5
 Number of Right Answers: 4
 Number of Wrong Answers: 1
+---
+##📁 Project Structure
+Math-Quiz/
+├── Project2.cpp           # Main source file
+├── .gitignore
+├── README.md              # You're reading it :)
+
+##📌 Notes
+Division questions use integer division (e.g., 7 / 2 = 3)
+
+If you select Mix, the game randomly changes the operation and difficulty level each round
+
+
+
