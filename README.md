@@ -8,36 +8,31 @@ The player is prompted with a series of math questions based on chosen difficult
 
 ## 🚀 Features
 
-```text
-✅ Choose how many questions to answer per round  
-➕➖✖️➗ Select operation type: Add, Subtract, Multiply, Divide — or let the game randomize it (Mix)  
-🎚️ Choose difficulty: Easy, Medium, Hard — or random (Mix)  
-✅ Real-time feedback for each answer (Right/Wrong)  
-📊 Summary of performance after each round  
-🎨 Terminal color feedback (green for correct, red for wrong)  
-🔁 Option to play multiple rounds  
-````
+- ✅ Choose how many questions to answer per round  
+- ➕➖✖️➗ Select operation type: Add, Subtract, Multiply, Divide — or let the game randomize it (Mix)  
+- 🎚️ Choose difficulty: Easy, Medium, Hard — or random (Mix)  
+- ✅ Real-time feedback for each answer (Right/Wrong)  
+- 📊 Summary of performance after each round  
+- 🎨 Terminal color feedback (green for correct, red for wrong)  
+- 🔁 Option to play multiple rounds  
 
 ---
 
 ## 🛠 How It Works
 
 1. The user selects:
-
-   * Number of questions
-   * Level of difficulty
-   * Type of operation
+   - Number of questions  
+   - Level of difficulty  
+   - Type of operation  
 
 2. For each question:
-
-   * Two random numbers are generated based on the difficulty
-   * The operation is applied (or randomized if Mix is chosen)
-   * The user inputs an answer and receives instant feedback
+   - Two random numbers are generated based on the difficulty  
+   - The operation is applied (or randomized if Mix is chosen)  
+   - The user inputs an answer and receives instant feedback  
 
 3. After the round:
-
-   * A summary is shown including correct and incorrect answers
-   * The user is asked if they want to play again
+   - A summary is shown including correct and incorrect answers  
+   - The user is asked if they want to play again  
 
 ---
 
@@ -60,7 +55,7 @@ Level: Medium
 Number of Questions: 5
 Number of Right Answers: 4
 Number of Wrong Answers: 1
-```
+````
 
 ---
 
@@ -76,7 +71,6 @@ Math-Quiz/
 ---
 
 ## 📌 Notes
-
 
 - Division questions use integer division (e.g., 7 / 2 = 3)
 - If you select Mix, the game will randomly change the operation type and/or difficulty level in each question:
